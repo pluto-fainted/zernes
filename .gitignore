@@ -1,0 +1,27 @@
+# Dependencies - these get downloaded automatically, never commit them
+node_modules/
+
+# Build outputs - generated files, not source code
+dist/
+build/
+
+# Environment variables - NEVER commit these, they contain secrets
+.env
+.env.local
+.env.production
+
+# Logs
+*.log
+
+# Windows system files
+Thumbs.db
+desktop.ini
+
+# Mac system files
+.DS_Store
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Editor settings (optional, some teams commit these)
+.vscode/

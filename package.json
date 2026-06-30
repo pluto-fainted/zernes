@@ -1,0 +1,11 @@
+{
+  "name": "zernes",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A browser-based collaborative development workspace",
+  "scripts": {
+    "dev": "pnpm --parallel --filter './packages/*' dev",
+    "build": "pnpm --filter '.packages/*' build",
+    "typecheck": "pnpm --filter './packages/*' typecheck"
+  }
+}
