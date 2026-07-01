@@ -4,5 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "pnpm --parallel --filter ./packages/* dev"
+  },
+  "dependencies": {
+    "mongodb": "^7.4.0"
   }
 }
