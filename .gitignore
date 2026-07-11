@@ -1,3 +1,28 @@
-node_modules/
+# Node
+node_modules
+.pnpm-store
+
+# Logs
+*.log
+
+# Environment files
 .env
-dist/
+.env.local
+.env.production
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build
+dist
+build
+
+# Vite
+packages/client/dist
+
+# VSCode
+.vscode
+
+# Lock files (keep pnpm-lock.yaml)
+package-lock.json
